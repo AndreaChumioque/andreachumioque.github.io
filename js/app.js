@@ -2,9 +2,15 @@
 
 var init = function init() {
   // Función menú hamburguesa
-  $('.menu-icon').click(function (event) {
+  $('.menu-icon').click(function(event) {
     $('.menu-icon').toggleClass('active');
     $('.menu-icon').find('div').removeClass('no-animation');
+  });
+
+  // Smooth scroll
+  $('header a').click(function(event) {
+    event.preventDefault();
+    $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top }, 1000);
   });
 };
 
