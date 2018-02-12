@@ -17,9 +17,9 @@
 
 <body>
   <header id="header">
-    <nav class="navbar navbar-expand-md">
-      <!-- <a id="brand-name" class="navbar-brand">Andrea Chumioque</a> -->
-      <!-- Botón hamburguesa animado -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand">AC</a>
+      <!-- Botón hamburguesa -->
       <button class="menu-icon navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu" aria-controls="collapsable-menu"
         aria-expanded="false" aria-label="Toggle navigation">
         <div class="line-1 no-animation"></div>
@@ -38,10 +38,10 @@
             <a class="nav-link" href="#aboutme">Acerca de mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portafolio</a>
+            <a class="nav-link" href="#portfolio">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -64,17 +64,26 @@
         </div>
       </div>
     </div>
-    </div>
-    </div>
   </section>
 
-  <section id="aboutme" class="container-fluid">
-    <div class="row">
-      <div class="col">
+  <section id="aboutme" class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-sm-4 offset-sm-4">
         <h2 class="text-center">Acerca de mí</h2>
+        <figure class="my-4">
+          <img src="assets/images/photo.jpg" alt="Andrea" class="img-fluid rounded-circle">
+        </figure>
+      </div>
+      <div class="col-12 col-sm-10 offset-sm-1 text-center">
+        <p>Hola, soy Andrea Chumioque, Diseñadora Gráfica y Front-end Developer Jr. egresada de Laboratoria. Me apasiona aprender
+          constantemente y descubrir cosas nuevas que me ayuden a crecer. Además de mi interés por la tencología, tengo gran
+          aprecio por el arte. En mis tiempo libres toco clarinete en la Orquesta Peruana de Clarinetes, hago ilustraciones
+          a mano alzada y me gusta viajar.</p>
       </div>
     </div>
   </section>
+
+  <section id="portfolio"></section>
 
   <!-- jQuery -->
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
