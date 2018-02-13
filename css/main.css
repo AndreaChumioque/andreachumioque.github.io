@@ -4,12 +4,13 @@
   font-weight: 300;
 }
 
-/* section {
-  min-height: 100vh;
-} */
+body {
+  background-color: #FFFCF9;
+}
 
 section:not(#home) {
   padding-top: 66px;
+  padding-bottom: 56px;
 }
 
 h2 {
@@ -146,13 +147,11 @@ p {
 }
 
 /* About */
-#aboutme {
-  background-color: #FFFCF9;
-}
 
 @media (min-width: 576px) {
   section:not(#home) {
     padding-top: 82px;
+    padding-bottom: 72px;
   }
 
   .carousel {

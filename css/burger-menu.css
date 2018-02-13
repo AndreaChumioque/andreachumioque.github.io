@@ -3,13 +3,13 @@
   width: 30px;
   height: 25px;
   cursor: pointer;
-  z-index: 50;
+  z-index: 500;
   padding: 0;
   border: 0;
 }
 
 .menu-icon:focus {
-  outline: none;
+  /* outline: none; */
 }
 
 .menu-icon .line-1,
