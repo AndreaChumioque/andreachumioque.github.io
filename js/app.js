@@ -2,13 +2,8 @@
 
 var init = function init() {
   // Función menú hamburguesa
-  // $('#burger-icon').on('click', function(event) {
-  //   event.preventDefault();
-  //   $('.menu-icon').toggleClass('active');
-  //   $('.menu-icon').find('div').removeClass('no-animation');
-  // });
-  $('#nav-icon4').click(function() {
-	  	$(this).toggleClass('open');
+  $('#nav-icon4').click(function(event) {
+    $('#nav-icon4').toggleClass('open');
   });
 
   // Smooth scroll
