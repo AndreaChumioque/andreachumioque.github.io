@@ -2,11 +2,14 @@
 
 var init = function init() {
   // Función menú hamburguesa
-  $('#burger-icon').on('click', function(event) {
-    event.preventDefault();
-    $('.menu-icon').toggleClass('active');
-    $('.menu-icon').find('div').removeClass('no-animation');
-  });
+  // $('#burger-icon').on('click', function(event) {
+  //   event.preventDefault();
+  //   $('.menu-icon').toggleClass('active');
+  //   $('.menu-icon').find('div').removeClass('no-animation');
+  // });
+  $('#nav-icon4').click(function() {
+	  	$(this).toggleClass('open');
+	});
 
   // Smooth scroll
   $('header a').click(function(event) {
