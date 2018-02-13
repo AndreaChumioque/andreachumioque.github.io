@@ -2,7 +2,8 @@
 
 var init = function init() {
   // Función menú hamburguesa
-  $('.menu-icon').on('click', function(event) {
+  $('#burger-icon').on('click', function(event) {
+    event.preventDefault();
     $('.menu-icon').toggleClass('active');
     $('.menu-icon').find('div').removeClass('no-animation');
   });
