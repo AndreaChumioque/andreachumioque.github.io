@@ -9,7 +9,7 @@ var init = function init() {
   // });
   $('#nav-icon4').click(function() {
 	  	$(this).toggleClass('open');
-	});
+  });
 
   // Smooth scroll
   $('header a').click(function(event) {
