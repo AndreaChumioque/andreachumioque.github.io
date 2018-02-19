@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
   <meta charset="UTF-8">
@@ -10,21 +10,20 @@
   <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
   <!-- CSS -->
+  <link rel="stylesheet" href="css/component.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/burger-menu.css">
   <title>Andrea Chumioque</title>
 </head>
 
 <body>
   <header id="header">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand">AC</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand py-0" href="#home">
+        <img src="assets/images/icon3.svg" alt="AC">
+      </a>
       <!-- Botón hamburguesa -->
-      <button id="nav-icon4" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu" aria-controls="collapsable-menu"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <div class="line-1 no-animation"></div>
-        <div class="line-2 no-animation"></div>
-        <div class="line-3 no-animation"></div> -->
+      <button id="nav-icon4" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu"
+        aria-controls="collapsable-menu" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
@@ -32,13 +31,13 @@
 
       <div class="collapse navbar-collapse" id="collapsable-menu">
         <ul class="navbar-nav ml-auto text-right">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#home">Home
-              <span class="sr-only">(current)</span>
+              <!-- <span class="sr-only">(current)</span> -->
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aboutme">Acerca de mí</a>
+            <a class="nav-link" href="#aboutme">Sobre mí</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portafolio</a>
@@ -52,7 +51,7 @@
   </header>
 
   <section id="home" class="d-flex align-items-center">
-    <div class="home-img"></div>
+    <!-- <div class="home-img"></div> -->
     <div class="carousel container">
       <div class="row">
         <div class="pre col-12">Hola, soy </div>
@@ -70,32 +69,126 @@
   </section>
 
   <section id="aboutme" class="container">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-sm-8 offset-sm-2 col-md-5 offset-md-1 col-lg-4">
-        <figure class="my-4">
+    <div class="row mt-4 pb-4">
+      <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-4 offset-md-1">
+        <figure class="my-4 my-md-0">
           <img src="assets/images/photo.jpg" alt="Andrea" class="img-fluid rounded-circle">
         </figure>
       </div>
       <div class="col-12 col-md-5 offset-md-1">
-        <h2 class="text-center text-md-left">Esta soy yo.</h2>
-        <p class="text-center text-sm-left">Hola, soy Andrea Chumioque, Diseñadora Gráfica y Front-end Developer Jr. egresada de Laboratoria. Me apasiona aprender constantemente y descubrir cosas nuevas que me ayuden a crecer. Además de mi interés por la tencología, tengo gran aprecio por el arte. En mis tiempo libres toco clarinete en la Orquesta Peruana de Clarinetes, hago ilustraciones a mano alzada y me gusta viajar.</p>
+        <h2 class="text-center text-md-left">This is me.</h2>
+        <p>Hola, soy Andrea, Diseñadora Gráfica y Front-end Developer egresada de Laboratoria. Me apasiona aprender constantemente
+          y descubrir cosas nuevas que me ayuden a seguir creciendo. </p>
+        <p>Además de mi interés por la tencología, tengo gran aprecio por el arte. En mi tiempo libre, formo parte de la Orquesta
+          Peruana de Clarinetes, creo ilustraciones y me gusta viajar.</p>
       </div>
     </div>
-  </section>
-  <!-- <hr> -->
-  <section id="portfolio" class="container">
-    <div class="row">
-      <div class="col">
-        <h2>Portafolio</h2>
+    <hr>
+    <div class="row mt-4">
+      <div class="col-10 offset-1">
+        <div class="row">
+          <div class="col-10 offset-1 col-md offset-md-0">
+            <div class="row">
+              <div class="col-10 offset-1">
+                <img class="w-100" src="assets/icons/svg/lightbulb_idea.svg" alt="Creativite solutions">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h5 class="text-center">Soluciones creativas</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md offset-1">
+            <div class="row">
+              <div class="col-10 offset-1">
+                <img class="w-100" src="assets/icons/svg/graphic_design.svg" alt="Creativity">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h5 class="text-center">Atención a los detalles</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md offset-1">
+            <div class="row">
+              <div class="col-10 offset-1">
+                <img class="w-100" src="assets/icons/svg/sunglasses.svg" alt="Will to keep learning">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <h5 class="text-center">Aprendizaje rápido</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
+  <section id="portfolio" class="d-flex flex-column align-items-center justify-content-center">
+    <h2 class="text-center display-4">Portafolio</h2>
+    <div class="mt-4">
+      <ul id="og-grid" class="og-grid">
+        <li>
+          <a href="https://github.com/AndreaChumioque/codebook/" data-largesrc="assets/images/codebook-large.png" data-title="Codebook"
+            data-description="Codebook es la red de egresadas de Laboratoria, creada para que nuestras usuarias pueden mantenerse en contacto y compartir las últimas tendencias en tecnología.">
+            <img src="assets/images/codebook-thumb.png" alt="Codebook" />
+          </a>
+          
+          <div class="og-expander">
+            <div class="og-expander-inner">
+              <span class="og-close"></span>
+              <div class="og-fullimg">
+                <div class="og-loading"></div>
+                <img src="assets/images/thumb.jpg">
+              </div>
+              <div class="og-details">
+                <h3></h3>
+                <p></p>
+                <a href=""></a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <a href="https://github.com/AndreaChumioque/foodmap/" data-largesrc="assets/images/foodmap-large.png" data-title="Foodmap" data-description="Foodmap es un aplicativo que localiza los restaurantes cercanos y muestra datos relevantes como dirección, precios y comida que ofrece.">
+            <img src="assets/images/foodmap-thumb.png" alt="Foodmap">
+          </a>
+        </li>
+
+        <li>
+          <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="assets/images/moviegeek-thumb.jpg" data-title="MovieGeek" data-description="Es un aplicativo,enfocado al público geek, que brinda información sobre películas del género de ciencia ficción.">
+            <img src="assets/images/moviegeek-thumb.jpg" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h2 class="display-4">Let's get in touch</h2>
+      </div>
+    </div>
+    <div class="row">
+
+    </div>
+  </section>
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+
   <!-- Bootstrap -->
   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <!-- JS -->
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
   <script src="js/app.js"></script>
 </body>
 

@@ -9,15 +9,16 @@ body {
 }
 
 section:not(#home) {
-  padding-top: 82px;
-  padding-bottom: 72px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  /* min-height: 100vh; */
 }
 
 h2 {
-  color: #FF6978;
+  color: #60cbf5;
 }
 
-p {
+h3, h5, p {
   color: #38383C;
 }
 
@@ -31,27 +32,38 @@ p {
   padding: 1rem;
 }
 
-.navbar-brand {
-  font-weight: 600;
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: #adadad;
+  display: inline-block;
   letter-spacing: .1em;
 }
 
-.navbar-nav .nav-link:hover {
-  text-shadow: 2px 2px 2px rgba(85, 85, 85, 0.6);
+.navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #6a7df6;
+  border-radius: 2px;
+  transition: width .3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
 }
 
 .nav-item.active {
   font-weight: 600;
-  text-shadow: 2px 2px 2px rgba(85, 85, 85, 0.6);
 }
 
 /* Menu hamburguesa animado */
 #nav-icon4 {
-  border: 1px solid transparent;
+  border: none;
   width: 35px;
   height: 30px;
   position: relative;
@@ -75,7 +87,7 @@ p {
   position: absolute;
   height: 4px;
   width: 100%;
-  background: #fff;
+  background: #6a7df6;
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -87,8 +99,6 @@ p {
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out;
-  -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 #nav-icon4 span:nth-child(1) {
@@ -100,7 +110,7 @@ p {
 }
 
 #nav-icon4 span:nth-child(2) {
-  top: 12px;
+  top: 12.5px;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -o-transform-origin: left center;
@@ -121,7 +131,7 @@ p {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 0px;
-  left: 5px;
+  left: 4px;
 }
 
 #nav-icon4.open span:nth-child(2) {
@@ -134,13 +144,14 @@ p {
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  bottom: 0px;
-  left: 5px;
+  bottom: 1px;
+  left: 4px;
 }
 
 /* Home */
 #home {
   height: 100vh;
+  background: linear-gradient(135deg, #95ddb9, #60cbf5);
 }
 
 .home-img {
@@ -235,8 +246,6 @@ p {
   }
 }
 
-/* About */
-
 @media (min-width: 576px) {
  .carousel {
     font-size: 2.5em;
@@ -293,4 +302,16 @@ p {
               transform: translateY(-220px);
     }
   }
+}
+
+/* About */
+
+/* Portfolio */
+#portfolio {
+  min-height: calc(100vh - 30px);
+}
+
+/* Contact */
+#contact {
+  background-color: tomato;
 }
