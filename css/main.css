@@ -161,7 +161,7 @@ section:not(#home) {
 #home {
   min-height: 100vh;
   padding-top: 75px;
-  background-color: #E5E5EB;
+  background-color: #D1D1D6;
 }
 
 #name {
