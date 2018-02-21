@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   <!-- Bootstrap -->
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <!-- Fuente -->
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="css/component.css">
   <link rel="stylesheet" href="css/main.css">
@@ -18,120 +21,141 @@
 <body>
   <header id="header">
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <a class="navbar-brand py-0" href="#home">
-        <img src="assets/images/icon3.svg" alt="AC">
-      </a>
-      <!-- Botón hamburguesa -->
-      <button id="nav-icon4" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu"
-        aria-controls="collapsable-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+      <div class="container">
+        <a class="navbar-brand py-0" href="#home">
+          <img src="assets/images/icon3.svg" alt="AC">
+        </a>
+        <!-- Botón hamburguesa -->
+        <button id="nav-icon4" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsable-menu"
+          aria-controls="collapsable-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="collapsable-menu">
-        <ul class="navbar-nav ml-auto text-right">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home
-              <!-- <span class="sr-only">(current)</span> -->
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="collapsable-menu">
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
 
-  <section id="home" class="d-flex align-items-center">
-    <!-- <div class="home-img"></div> -->
-    <div class="carousel container">
-      <div class="row">
-        <div class="pre col-12">Hola, soy </div>
-        <div class="change_outer col-12 text-center">
-          <div class="change_inner">
-            <div class="element">Andrea Chumioque.</div>
-            <div class="element">front-end developer.</div>
-            <div class="element">diseñadora gráfica.</div>
-            <div class="element">creadora digital.</div>
-            <div class="element">Andrea Chumioque.</div>
+  <section id="home" class="container-fluid d-flex flex-column justify-content-center">
+    <div class="row">
+      <div class="col-12 col-lg-5 offset-lg-1 text-center text-lg-left d-flex flex-column justify-content-center">
+        <h2 id="name">Andrea Chumioque</h2>
+        <h3 class="rotate">Front-end Developer,Diseñadora gráfica,Creadora digital</h3>
+      </div>
+      <div class="col-8 offset-2 col-lg-5 offset-lg-0 mt-4 mt-lg-0 pt-3 pt-lg-0">
+        <img class="img-fluid" src="assets/images/workspace.svg" alt="Home">
+      </div>
+    </div>
+  </section>
+
+  <section id="aboutme" class="container-fluid d-flex flex-column justify-content-center">
+    <div class="row mt-4 pb-4">
+      <div class="col-8 offset-2 col-md-4 offset-md-1 col-lg-3">
+        <figure class="my-4 my-md-0">
+          <img src="assets/images/photo.jpg" alt="Andrea Chumioque" class="img-fluid rounded-circle">
+        </figure>
+      </div>
+      <div class="col-10 offset-1 col-md-5 col-lg-6">
+        <h2 class="display-4 text-center title">Hola, mundo.</h2>
+        <p class="mt-4">Hola, soy Andrea, Diseñadora Gráfica y Front-end Developer de Laboratoria. Me apasiona aprender constantemente y
+          descubrir cosas nuevas que me ayuden a seguir creciendo. </p>
+        <p>Además de mi interés por la tencología, tengo gran aprecio por el arte. En mi tiempo libre, formo parte de la Orquesta
+          Peruana de Clarinetes, creo ilustraciones y me gusta viajar.</p>
+        <hr>
+        <div class="row">
+          <div class="col-12 col-md text-center">
+            <img class="img-fluid" src="assets/images/creativity.png" alt="Soluciones creativas">
+            <p>Soluciones creativas</p>
+          </div>
+          <div class="col-12 col-md text-center">
+            <img class="img-fluid" src="assets/images/details.png" alt="Atención a los detalles">
+            <p>Amor por los detalles</p>
+          </div>
+          <div class="col-12 col-md text-center">
+            <img class="img-fluid" src="assets/images/learning.png" alt="Aprendizaje constante">
+            <p>Aprendizaje rápido</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="aboutme" class="container">
-    <div class="row mt-4 pb-4">
-      <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-4 offset-md-1">
-        <figure class="my-4 my-md-0">
-          <img src="assets/images/photo.jpg" alt="Andrea" class="img-fluid rounded-circle">
-        </figure>
+  <section id="skills">
+    <div class="container text-center pt-4">
+      <div class="row pt-4 mb-4">
+        <div class="col">
+          <h2 class="display-4 title">Skills</h2>
+        </div>
       </div>
-      <div class="col-12 col-md-5 offset-md-1">
-        <h2 class="text-center text-md-left">This is me.</h2>
-        <p>Hola, soy Andrea, Diseñadora Gráfica y Front-end Developer egresada de Laboratoria. Me apasiona aprender constantemente
-          y descubrir cosas nuevas que me ayuden a seguir creciendo. </p>
-        <p>Además de mi interés por la tencología, tengo gran aprecio por el arte. En mi tiempo libre, formo parte de la Orquesta
-          Peruana de Clarinetes, creo ilustraciones y me gusta viajar.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row mt-4">
-      <div class="col-10 offset-1">
-        <div class="row">
-          <div class="col-10 offset-1 col-md offset-md-0">
-            <div class="row">
-              <div class="col-10 offset-1">
-                <img class="w-100" src="assets/icons/svg/lightbulb_idea.svg" alt="Creativite solutions">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <h5 class="text-center">Soluciones creativas</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 offset-1 col-md offset-md-0">
-            <div class="row">
-              <div class="col-10 offset-1">
-                <img class="w-100" src="assets/icons/svg/graphic_design.svg" alt="Creativity">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <h5 class="text-center">Atención a los detalles</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 offset-1 col-md offset-md-0">
-            <div class="row">
-              <div class="col-10 offset-1">
-                <img class="w-100" src="assets/icons/svg/sunglasses.svg" alt="Will to keep learning">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <h5 class="text-center">Aprendizaje rápido</h5>
-              </div>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
+          <figure class="skill">
+            <img src="assets/images/html5-logo-01.svg" alt="HTML5">
+          </figure>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/css3-logo-01.svg" alt="CSS#">
+          </figure>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/js-logo-01.svg" alt="Javascript">
+          </figure>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/jquery-logo-01.svg" alt="jQuery">
+          </figure>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2 offset-lg-2">
+          <figure class="skill">
+            <img src="assets/images/bootstrap-logo-01.svg" alt="HTML5">
+          </figure>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/materialize-logo-01.svg" alt="HTML5">
+          </figure>
+        </div>
+        <div class="col-5 offset-1 col-sm-3 offset-sm-0 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/babel-logo-01.svg" alt="Babel">
+          </figure>
+        </div>
+        <div class="col-5 col-sm-3 col-lg-2">
+          <figure class="skill">
+            <img src="assets/images/firebase-logo-01.svg" alt="HTML5">
+          </figure>
         </div>
       </div>
     </div>
   </section>
 
   <section id="portfolio" class="d-flex flex-column align-items-center justify-content-center">
-    <h2 class="text-center display-4">Portafolio</h2>
-    <div class="mt-4">
-      <ul id="og-grid" class="og-grid">
+    <h2 class="text-center display-4 title">Portafolio</h2>
+    <div class="mt-4 container">
+      <ul id="og-grid" class="og-grid row">
         <li>
           <a href="https://github.com/AndreaChumioque/codebook/" data-largesrc="assets/images/codebook-large.png" data-title="Codebook"
             data-description="Codebook es la red de egresadas de Laboratoria, creada para que nuestras usuarias pueden mantenerse en contacto y compartir las últimas tendencias en tecnología.">
@@ -140,13 +164,15 @@
         </li>
 
         <li>
-          <a href="https://github.com/AndreaChumioque/foodmap/" data-largesrc="assets/images/foodmap-large.png" data-title="Foodmap" data-description="Foodmap es un aplicativo que localiza los restaurantes cercanos y muestra datos relevantes como dirección, precios y comida que ofrece.">
+          <a href="https://github.com/AndreaChumioque/foodmap/" data-largesrc="assets/images/foodmap-large.png" data-title="Foodmap"
+            data-description="Foodmap es un aplicativo que localiza los restaurantes cercanos y muestra datos relevantes como dirección, precios y comida que ofrece.">
             <img src="assets/images/foodmap-thumb.png" alt="Foodmap">
           </a>
         </li>
 
         <li>
-          <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="assets/images/moviegeek-thumb.jpg" data-title="MovieGeek" data-description="Es un aplicativo,enfocado al público geek, que brinda información sobre películas del género de ciencia ficción.">
+          <a href="http://cargocollective.com/jaimemartinez/" data-largesrc="assets/images/moviegeek-large.png" data-title="MovieGeek"
+            data-description="Es un aplicativo,enfocado al público geek, que brinda información sobre películas del género de ciencia ficción.">
             <img src="assets/images/moviegeek-thumb.jpg" alt="">
           </a>
         </li>
@@ -154,14 +180,34 @@
     </div>
   </section>
 
-  <section id="contact" class="container-fluid">
-    <div class="row">
+  <section id="contact" class="container-fluid text-center d-flex flex-column align-items-center justify-content-center">
+    <div class="row my-4">
       <div class="col">
-        <h2 class="display-4">Let's get in touch</h2>
+        <h2 class="display-4 title">Pongámonos en contacto</h2>
+      </div>
+    </div>
+    <div class="row py-3">
+      <div class="col">
+        <h3>Envíame un email a
+          <a href="mailto:aichumioque@gmail.com">aichumioque@gmail.com</a>
+        </h3>
       </div>
     </div>
     <div class="row">
-
+      <div class="col-12">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/andreachumioque/" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/aichumioque/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <!-- jQuery -->
@@ -170,10 +216,12 @@
   <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
 
   <!-- Bootstrap -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <!-- JS -->
   <script src="js/modernizr.custom.js"></script>
   <script src="js/grid.js"></script>
+  <script src="js/text-rotator.js"></script>
   <script src="js/app.js"></script>
 </body>
 

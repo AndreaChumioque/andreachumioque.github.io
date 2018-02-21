@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:#FDC440;}
+	.st1{fill:#F5C15C;}
+	.st2{clip-path:url(#SVGID_4_);fill:#EF7D00;}
+	.st3{clip-path:url(#SVGID_4_);fill:#FFE260;}
+	.st4{clip-path:url(#SVGID_4_);fill:#FDCD2F;}
+	.st5{clip-path:url(#SVGID_4_);fill:#F0AE26;}
+	.st6{fill:#12100B;}
+	.st7{fill:#FCDD2B;}
+	.st8{fill:#23201C;}
+	.st9{clip-path:url(#SVGID_6_);fill:#23201C;}
+	.st10{clip-path:url(#SVGID_6_);fill:#245998;}
+	.st11{fill:#245998;}
+</style>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="117" y="68" width="265.9" height="365"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st0" d="M117,362.6l2.2-3.1l104.5-198.3l0.2-2.1l-46.1-86.5c-3.9-7.3-14.7-5.4-16,2.7L117,362.6L117,362.6z"/>
+	</g>
+	<path class="st1" d="M257.5,224.6l34.3-35.1l-34.3-65.5c-3.3-6.2-12.4-6.2-15.6,0l-18.3,35v3L257.5,224.6L257.5,224.6z"/>
+	<g>
+		<defs>
+			<rect id="SVGID_3_" x="117" y="68" width="265.9" height="365"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<polygon class="st2" points="117,362.6 118,361.6 121.6,360.1 255.4,226.9 257.1,222.3 223.7,158.7 117,362.6 		"/>
+		<path class="st3" d="M261.8,429.8l121-67.5l-34.6-212.9c-1.1-6.7-9.3-9.3-14-4.5L117,362.6l120.4,67.2
+			C245,434.1,254.2,434.1,261.8,429.8"/>
+		<path class="st4" d="M381.8,361.7l-34.3-211.3c-1.1-6.6-7.9-9.3-12.6-4.6L118.3,362.2l119,66.5c7.5,4.2,16.7,4.2,24.3,0
+			L381.8,361.7L381.8,361.7z"/>
+		<path class="st5" d="M261.8,427.8c-7.6,4.2-16.9,4.2-24.5,0L118,361.6l-1,1l120.4,67.2c7.6,4.2,16.9,4.2,24.5,0l121-67.5l-0.3-1.8
+			L261.8,427.8L261.8,427.8z"/>
+	</g>
+</g>
+</svg>

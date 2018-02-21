@@ -8,8 +8,9 @@
 
 .og-grid li {
 	display: inline-block;
-	margin: 10px 5px 0 5px;
 	vertical-align: top;
+	margin: 12.5px 0;
+	width: 100%;
 	height: 250px;
 }
 
@@ -21,7 +22,24 @@
 	position: relative;
 	border-radius: 10px;
 	transition: .5s;
-	width: 250px;
+	width: 100%;
+}
+
+@media (min-width:768px) {
+	.og-grid li {
+		width: 32%;
+	}
+
+	.og-grid li:nth-child(2) {
+		margin: 12.5px 2%;
+	}
+}
+
+.og-grid li > a img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .og-grid li > a img:hover {
@@ -36,7 +54,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #f8f9fa;
+	border-bottom-color: #F0F0F4;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -44,7 +62,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #f8f9fa;
+	background: #F0F0F4;
 	top: auto;
 	left: 0;
 	width: 100%;

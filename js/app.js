@@ -9,10 +9,17 @@ $(window).on('load', function () {
   // Smooth scroll
   $('header a').click(function (event) {
     event.preventDefault();
-    $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top - 70 }, 1000);
+    $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top - 25 }, 1000);
   });
 
   $(function () {
     Grid.init();
+  });
+
+  $('.rotate').textRotator({
+    // These are the defaults.
+    animation: 'fadeIn',
+    seprator: ',',
+    speed: '2000'
   });
 });

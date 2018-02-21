@@ -111,8 +111,7 @@ $.fn.imagesLoaded = function(callback) {
     // cache image and its state for future calls
     $.data(img, 'imagesLoaded', {
       isBroken: isBroken,
-      src: img.src
-    });
+      src: img.src });
 
     // trigger deferred progress method if present
     if (hasNotify) {
@@ -122,7 +121,7 @@ $.fn.imagesLoaded = function(callback) {
     // call doneLoading and clean listeners if all images are loaded
     if ($images.length === loaded.length) {
       setTimeout(doneLoading);
-      $images.off('.imagesLoaded');
+      $images.unbind('.imagesLoaded');
     }
   }
 
@@ -130,7 +129,7 @@ $.fn.imagesLoaded = function(callback) {
   if (!$images.length) {
     doneLoading();
   } else {
-    $images.on('load.imagesLoaded error.imagesLoaded', function(event) {
+    $images.bind('load.imagesLoaded error.imagesLoaded', function(event) {
       // trigger imgLoaded
       imgLoaded(event.target, event.type === 'error');
     }).each(function(i, el) {
@@ -193,7 +192,7 @@ var Grid = (function() {
     support = Modernizr.csstransitions,
     // default settings
     settings = {
-      minHeight: 470,
+      minHeight: 500,
       speed: 350,
       easing: 'ease'
     };
@@ -204,9 +203,9 @@ var Grid = (function() {
 
     // preload all images
     $grid.imagesLoaded(function() {
-      // save item´s size and offset
+      // save itemÂ´s size and offset
       saveItemInfo(true);
-      // get window´s size
+      // get windowÂ´s size
       getWinSize();
       // initialize some events
       initEvents();
@@ -230,7 +229,7 @@ var Grid = (function() {
     initItemsEvents($newitems);
   }
 
-  // saves the item´s offset top and height (if saveheight is true)
+  // saves the itemÂ´s offset top and height (if saveheight is true)
   function saveItemInfo(saveheight) {
     $items.each(function() {
       var $item = $(this);
@@ -242,17 +241,17 @@ var Grid = (function() {
   }
 
   function initEvents() {
-    // when clicking an item, show the preview with the item´s info and large image.
+    // when clicking an item, show the preview with the itemÂ´s info and large image.
     // close the item if already expanded.
-    // also close if clicking on the item´s cross
+    // also close if clicking on the itemÂ´s cross
     initItemsEvents($items);
 
-    // on window resize get the window´s size again
+    // on window resize get the windowÂ´s size again
     // reset some values..
     $window.on('debouncedresize', function() {
       scrollExtra = 0;
       previewPos = -1;
-      // save item´s offset
+      // save itemÂ´s offset
       saveItemInfo();
       getWinSize();
       var preview = $.data(this, 'preview');
@@ -266,7 +265,7 @@ var Grid = (function() {
     $items.on('click', 'span.og-close', function() {
       hidePreview();
       return false;
-    }).children('a').on('click', function(event) {
+    }).children('a').on('click', function(e) {
       var $item = $(this).parent();
       // check if item already opened
       current === $item.index() ? hidePreview() : showPreview($item);
@@ -275,24 +274,22 @@ var Grid = (function() {
   }
 
   function getWinSize() {
-    winsize = {
-      width: $window.width(),
-      height: $window.height()
-    };
+    winsize = { width: $window.width(),
+      height: $window.height() };
   }
 
   function showPreview($item) {
     var preview = $.data(this, 'preview'),
-      // item´s offset top
+      // itemÂ´s offset top
       position = $item.data('offsetTop');
 
     scrollExtra = 0;
 
-    // if a preview exists and previewPos is different (different row) from item´s top then close it
+    // if a preview exists and previewPos is different (different row) from itemÂ´s top then close it
     if (typeof preview !== 'undefined') {
       // not in the same row
       if (previewPos !== position) {
-        // if position > previewPos then we need to take te current preview´s height in consideration when scrolling the window
+        // if position > previewPos then we need to take te current previewÂ´s height in consideration when scrolling the window
         if (position > previewPos) {
           scrollExtra = preview.height;
         }
@@ -331,7 +328,7 @@ var Grid = (function() {
       // create Preview structure:
       this.$title = $('<h3></h3>');
       this.$description = $('<p></p>');
-      this.$href = $('<a href="#">Ir al website</a>');
+      this.$href = $('<a href="#">Visit website</a>');
       this.$details = $('<div class="og-details"></div>').append(this.$title, this.$description, this.$href);
       this.$loading = $('<div class="og-loading"></div>');
       this.$fullimage = $('<div class="og-fullimg"></div>').append(this.$loading);
@@ -362,7 +359,7 @@ var Grid = (function() {
       // update current value
       current = this.$item.index();
 
-      // update preview´s content
+      // update previewÂ´s content
       var $itemEl = this.$item.children('a'),
         eldata = {
           href: $itemEl.attr('href'),
@@ -383,7 +380,7 @@ var Grid = (function() {
       }
 
       // preload large image and add it to the preview
-      // for smaller screens we don´t display the large image (the media query will hide the fullimage wrapper)
+      // for smaller screens we donÂ´t display the large image (the media query will hide the fullimage wrapper)
       if (self.$fullimage.is(':visible')) {
         this.$loading.show();
         $('<img/>').load(function() {
@@ -462,14 +459,14 @@ var Grid = (function() {
     },
     positionPreview: function() {
       // scroll page
-      // case 1 : preview height + item height fits in window´s height
-      // case 2 : preview height + item height does not fit in window´s height and preview height is smaller than window´s height
-      // case 3 : preview height + item height does not fit in window´s height and preview height is bigger than window´s height
+      // case 1 : preview height + item height fits in windowÂ´s height
+      // case 2 : preview height + item height does not fit in windowÂ´s height and preview height is smaller than windowÂ´s height
+      // case 3 : preview height + item height does not fit in windowÂ´s height and preview height is bigger than windowÂ´s height
       var position = this.$item.data('offsetTop'),
         previewOffsetT = this.$previewEl.offset().top - scrollExtra,
         scrollVal = this.height + this.$item.data('height') + marginExpanded <= winsize.height ? position : this.height < winsize.height ? previewOffsetT - (winsize.height - this.height) : previewOffsetT;
 
-      $body.animate({scrollTop: scrollVal}, settings.speed);
+      $body.animate({ scrollTop: scrollVal }, settings.speed);
     },
     setTransition: function() {
       this.$previewEl.css('transition', 'height ' + settings.speed + 'ms ' + settings.easing);
