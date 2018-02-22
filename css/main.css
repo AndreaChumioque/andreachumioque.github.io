@@ -9,9 +9,9 @@ body {
 }
 
 section:not(#home) {
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 50px;
-  min-height: calc(100vh - 25px);
+  min-height: calc(100vh - 75px);
 }
 
 .title {
@@ -29,6 +29,14 @@ section:not(#home) {
 
 .text, p {
   color: #454B54;
+}
+
+.display-4 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 /* Header */
@@ -96,7 +104,7 @@ section:not(#home) {
   position: absolute;
   height: 4px;
   width: 100%;
-  background: #6a7df6;
+  background: #7376A8;
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -179,6 +187,10 @@ section:not(#home) {
   #name {
     font-size: 4.5em;
   }
+
+  #home h3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -191,20 +203,22 @@ section:not(#home) {
 
 /* Skills */
 #skills {
-  /* background-color: #E4D1E0; */
-  /* color: #7376A8; */
-  min-height: 100vh;
+  background-color: #F2EAF0;
 }
 
 .skill {
-  background-color: #eee;
+  background-color: #fff;
   border-radius: 15px;
-  box-shadow: 2px 2px #fff, -2px -2px #ccc;
+  box-shadow: 2px 2px #eee, -2px -2px #ccc;
 }
 
 /* Portfolio */
 #portfolio {
   min-height: calc(100vh - 30px);
+}
+
+#portfolio .og-grid li > a {
+  box-shadow: -2px 2px 5px #ccc;
 }
 
 /* Contact */
@@ -219,4 +233,14 @@ section:not(#home) {
 
 #contact .nav-pills a {
   font-size: 3em;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 1.72rem;
+  }
 }
