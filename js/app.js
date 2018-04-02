@@ -9,12 +9,12 @@ $(window).on('load', function() {
   // Smooth scroll
   $('header a').click(function(event) {
     event.preventDefault();
-    $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top - 72 }, 1000);
+    $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top - 75 }, 1000);
   });
 
-  // $(function() {
-  //   Grid.init();
-  // });
+  $(function() {
+    Grid.init();
+  });
 
   $('.rotate').textRotator({
     // These are the defaults.
