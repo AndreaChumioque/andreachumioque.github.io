@@ -1,6 +1,7 @@
 /* Site styles */
 * {
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Nunito Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
@@ -14,7 +15,7 @@ section:not(#home) {
   min-height: calc(100vh - 75px);
 }
 
-.title {
+.title, .lavender {
   color: #7376A8;
 }
 
@@ -27,12 +28,17 @@ section:not(#home) {
   margin: auto;
 }
 
+.lavender:hover {
+  color: #44477D;
+}
+
 .text, p {
   color: #454B54;
 }
 
 .display-4 {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -175,7 +181,7 @@ h3 {
 #name {
   color: #fff;
   text-shadow: 3px 2px 7px rgba(154, 154, 154, 0.45);
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -185,17 +191,17 @@ h3 {
 
 @media (min-width: 768px) {
   #name {
-    font-size: 4.5em;
+    font-size: 4.25rem;
   }
 
   #home h3 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 
 @media (min-width: 1200px) {
   #name {
-    font-size: 5.5em;
+    font-size: 5.25rem;
   }
 }
 
@@ -207,9 +213,13 @@ h3 {
 }
 
 .skill {
-  background-color: #fff;
-  border-radius: 15px;
-  box-shadow: 2px 2px #eee, -2px -2px #ccc;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.skill:hover {
+  opacity: .75;
 }
 
 /* Portfolio */
@@ -217,8 +227,20 @@ h3 {
   min-height: calc(100vh - 30px);
 }
 
-#portfolio .og-grid li > a {
-  box-shadow: -2px 2px 5px #ccc;
+#portfolio a {
+  text-decoration: none;
+}
+
+.work {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #ffe270;
+}
+
+a:hover .work {
+  /* opacity: .75; */
+  color: #ffc107;
+  transform: translateX(-3px);
 }
 
 /* Contact */

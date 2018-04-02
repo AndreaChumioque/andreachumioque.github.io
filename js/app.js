@@ -12,9 +12,9 @@ $(window).on('load', function() {
     $('html, body').stop().animate({ scrollTop: $($(event.target).attr('href')).offset().top - 72 }, 1000);
   });
 
-  $(function() {
-    Grid.init();
-  });
+  // $(function() {
+  //   Grid.init();
+  // });
 
   $('.rotate').textRotator({
     // These are the defaults.
