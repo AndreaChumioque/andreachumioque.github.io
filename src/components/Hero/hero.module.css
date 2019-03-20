@@ -1,0 +1,17 @@
+.heroContainer {
+  background-color: var(--ac-blue);
+}
+
+.name {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.message {
+  font-size: 1.5rem;
+  transition: .25s;
+}
+
+.fade {
+  opacity: 0;
+}
