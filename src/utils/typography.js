@@ -1,9 +1,7 @@
-// import TTNormsRegular from '../fonts/TTNorms-Regular.otf';
-// import TTNormsBold from '../fonts/TTNorms-Bold.otf';
-
 import Typography from 'typography';
 
 const typography = new Typography({
+  baseFontSize: '16px',
   headerFontFamily: [
     'TTNormsBold',
     'sans-serif',

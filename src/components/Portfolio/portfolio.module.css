@@ -1,20 +1,20 @@
 .workBox {
   position: relative;
   cursor: pointer;
+  margin: 15px;
 }
 
-.workBox img {
+.workBox img, .workBox h4 {
   margin: 0;
 }
 
 .overlay {
   position: absolute;
   bottom: 0;
-  padding: 20px;
   z-index: 1;
   background-color: rgba(255, 255, 255, .85);
   width: 100%;
-  transition: .25s;
+  transition: .15s;
   overflow: hidden;
 }
 

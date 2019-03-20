@@ -1,6 +1,6 @@
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
 import classNames from 'classnames';
 import withWidth from '@material-ui/core/withWidth';
 import { Grid } from '@material-ui/core';

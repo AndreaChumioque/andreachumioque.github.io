@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-/* div::selection {
-  display:none;
-}​ */
-
 /* Helpers */
 
 .vh100 {
@@ -37,6 +33,14 @@ a {
 
 .p25 {
   padding: 25px;
+}
+
+.p20 {
+  padding: 20px;
+}
+
+.pt0 {
+  padding-top: 0;
 }
 
 .w25 {
@@ -49,6 +53,10 @@ a {
 
 .flex {
   display: flex;
+}
+
+.flex1 {
+  flex: 1;
 }
 
 .flex-col {

@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import posed from 'react-pose';
 import PlusCircle from 'react-feather/dist/icons/plus-circle';
 import MinusCircle from 'react-feather/dist/icons/minus-circle';
+import Code from 'react-feather/dist/icons/code';
+import Coffee from 'react-feather/dist/icons/coffee';
 
 import styles from './portfolio.module.css';
 
@@ -16,7 +18,7 @@ const Expandible = posed.div({
   },
 })
 
-class ProyectExp extends React.Component {
+class ProyectExp extends Component {
   state = {
     pose: 'collapse',
   }
@@ -29,13 +31,15 @@ class ProyectExp extends React.Component {
     return (
       <Expandible
         pose={pose}
-        className={styles.overlay}
-        onClick={() => {
-          const newPose = pose === 'collapse' ? 'expand' : 'collapse';
-          this.toggleExpand(newPose);
-        }}
+        className={classNames(styles.overlay, 'flex', 'flex-col')}
       >
-        <div className={classNames('flex', 'flex-row', 'justify-space-between')}>
+        <div
+          className={classNames('flex', 'flex-row', 'justify-space-between', 'p20')}
+          onClick={() => {
+            const newPose = pose === 'collapse' ? 'expand' : 'collapse';
+            this.toggleExpand(newPose);
+          }}
+        >
           <h4>{work.title}</h4>
           {pose === 'expand' ? (
             <MinusCircle size={20} />
@@ -44,7 +48,21 @@ class ProyectExp extends React.Component {
           )}
         </div>
         {pose === 'expand' && (
-          <p>{work.description}</p>
+          <div className={classNames('p20', 'pt0', 'flex', 'flex-col', 'flex1', 'justify-space-between')}>
+            <p>{work.description}</p>
+            <div className={classNames('flex', 'justify-space-between')}>
+              <a
+                href={work.urlDemo}
+              >
+                <Coffee size={16} /> Demo
+              </a>
+              <a
+                href={work.urlGithub}
+              >
+                <Code size={16} /> Github
+              </a>
+            </div>
+          </div>
         )}
       </Expandible>
     )
