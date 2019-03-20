@@ -5,13 +5,14 @@ import Img from 'gatsby-image';
 import classNames from 'classnames';
 import { Grid } from '@material-ui/core';
 
-// import styles from './portfolio.module.css';
+import styles from './portfolio.module.css';
+import ProjectInfo from './ProjectInfo';
 
 const portfolio = [
   {
     title: 'Codebook',
-    description: 'Propuestade red social enfocada a egresadas de Laboratoria, cuyo objetivo es mantener a las exalumnas en contacto.',
-    // image: 
+    description: 'Propuesta para red social enfocada a egresadas de Laboratoria, cuyo objetivo es mantener a las exalumnas en contacto.',
+    image: 'codebook',
     urlDemo: 'https://andreachumioque.github.io/codebook',
     urlGithub: 'https://github.com/AndreaChumioque/codebook',
     tools: ['jQuery', 'Bootstrap4', 'Firebase'],
@@ -19,24 +20,25 @@ const portfolio = [
   {
     title: 'Foodmap',
     description: 'Aplicativo que localiza los restaurantes cercanos y muestra datos relevantes como dirección, precios y comida que ofrece.',
-    image: 'foodmap-thumb.png',
-    urlDemo: '',
-    urlGithub: '',
+    image: 'foodmap',
+    urlDemo: 'https://andreachumioque.github.io/foodmap',
+    urlGithub: 'https://github.com/AndreaChumioque/foodmap',
     tools: ['jQuery', 'Bootstrap4', 'Firebase'],
   },
   {
     title: 'MovieGeek',
     description: 'Aplicativo web enfocado al público geek, que brinda información sobre películas del género de ciencia ficción.',
-    // image: ''
-    urlDemo: '',
-    urlGithub: '',
-    tools: [],
+    image: 'moviegeek',
+    urlDemo: 'https://github.com/AndreaChumioque/moviegeek',
+    urlGithub: 'https://github.com/AndreaChumioque/moviegeek',
+    tools: ['React', 'Material UI'],
   },
   {
     title: 'Data dashboard',
-    description: 'Propuestade red social enfocada a egresadas de Laboratoria, cuyo objetivo es mantener a las exalumnas en contacto.',
-    urlDemo: '',
-    urlGithub: '',
+    description: 'Herramienta para el despliegue de datos de las distintas generaciones de Laboratoria por año y sede.',
+    image: 'moviegeek',
+    urlDemo: 'https://andreachumioque.github.io/foodmap',
+    urlGithub: 'https://github.com/AndreaChumioque/foodmap',
     tools: [],
   }
 ];
@@ -45,9 +47,23 @@ const Portfolio = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        codebook: file(relativePath: { eq: "codebook-thumb.png" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        foodmap: file(relativePath: { eq: "foodmap-thumb.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 500) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        moviegeek: file(relativePath: { eq: "moviegeek-thumb.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -55,12 +71,11 @@ const Portfolio = () => (
       }
     `}
     render={data => (
-      <Grid container component="section" className={classNames('container')}>
+      <Grid container component="section" className={classNames('vh100')}>
         {portfolio.map(work => (
-          <Grid key={work.title} item xs={12} md={6}>
-            <h2>{work.title}</h2>
-            <p>{work.description}</p>
-            <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+          <Grid key={work.title} item xs={12} md={6} className={styles.workBox}>
+            <ProjectInfo work={work}/>
+            <Img fluid={data[work.image].childImageSharp.fluid} className={styles.workImage} />
           </Grid>
         ))}
       </Grid>

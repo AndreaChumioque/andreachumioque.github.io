@@ -18,11 +18,14 @@ class Hero extends Component {
     const { currentMessage } = this.state;
     const newMessage = currentMessage === 2 ? 0 : currentMessage + 1;
     setTimeout(() => {
-      document.getElementById('hero-message').classList.add(styles.fade);
-      setTimeout(() => {
-        this.setState({ currentMessage: newMessage });
-        document.getElementById('hero-message').classList.remove(styles.fade);
-      }, 500);
+      const element = document.getElementById('hero-message');
+      if (element) {
+        element.classList.add(styles.fade);
+        setTimeout(() => {
+          this.setState({ currentMessage: newMessage });
+          element.classList.remove(styles.fade);
+        }, 500);
+      }
     }, 3000);
   }
 
