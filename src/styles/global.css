@@ -39,12 +39,20 @@ a {
   padding: 20px;
 }
 
+.pr15 {
+  padding-right: 15px;
+}
+
 .pt0 {
   padding-top: 0;
 }
 
 .w25 {
   width: 25%;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .fixed {

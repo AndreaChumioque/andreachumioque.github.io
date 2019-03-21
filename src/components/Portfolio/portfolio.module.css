@@ -1,7 +1,8 @@
 .workBox {
   position: relative;
   cursor: pointer;
-  margin: 15px;
+  padding: 15px;
+  min-height: 250px;
 }
 
 .workBox img, .workBox h4 {
@@ -10,10 +11,9 @@
 
 .overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   z-index: 1;
-  background-color: rgba(255, 255, 255, .85);
-  width: 100%;
+  width: calc(100% - 30px);
   transition: .15s;
   overflow: hidden;
 }

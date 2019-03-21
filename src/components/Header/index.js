@@ -9,11 +9,15 @@ import HeaderSmall from './HeaderSmall';
 
 const pages = [
   {
+    label: 'Home',
+    path: '/',
+  },
+  {
     label: 'Portafolio',
     path: '/portfolio',
   },
   {
-    label: 'Acerca de',
+    label: 'Sobre mí',
     path: '/about',
   },
   {

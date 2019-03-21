@@ -11,10 +11,12 @@ import styles from './portfolio.module.css';
 
 const Expandible = posed.div({
   expand: {
-    height: '100%',
+    height: 'calc(100% - 30px)',
+    backgroundColor: 'rgba(255, 255, 255, .9)',
   },
   collapse: {
-    height: '20%',
+    height: 55,
+    backgroundColor: 'rgba(255, 255, 255, .5)',
   },
 })
 
@@ -52,12 +54,12 @@ class ProyectExp extends Component {
             <p>{work.description}</p>
             <div className={classNames('flex', 'justify-space-between')}>
               <a
-                href={work.urlDemo}
+                href={work.demo}
               >
                 <Coffee size={16} /> Demo
               </a>
               <a
-                href={work.urlGithub}
+                href={work.github}
               >
                 <Code size={16} /> Github
               </a>
