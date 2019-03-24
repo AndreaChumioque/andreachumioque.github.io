@@ -30,3 +30,23 @@
   object-fit: cover;
   margin: 0;
 }
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: inherit;
+  padding: 5px;
+  transition: .25s;
+}
+
+.link .icon {
+  color: var(--ac-blue);
+  margin-right: 5px;
+  transition: .25s;
+}
+
+.link:hover, .link:hover .icon {
+  background-color: var(--ac-yellow);
+  color: #fff;
+}

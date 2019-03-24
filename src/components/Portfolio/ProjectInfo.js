@@ -54,14 +54,16 @@ class ProyectExp extends Component {
             <p>{work.description}</p>
             <div className={classNames('flex', 'justify-space-between')}>
               <a
+                className={styles.link}
                 href={work.demo}
               >
-                <Coffee size={16} /> Demo
+                <Coffee size={16} className={styles.icon} /> Demo
               </a>
               <a
+                className={styles.link}
                 href={work.github}
               >
-                <Code size={16} /> Github
+                <Code size={16} className={styles.icon} /> Github
               </a>
             </div>
           </div>
