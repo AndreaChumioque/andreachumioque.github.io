@@ -43,7 +43,7 @@ const About = () => (
             </p>
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Img fluid={data.bio.childImageSharp.fluid} />
+            <Img fluid={data.bio.childImageSharp.fluid} className={styles.aboutImage} />
           </Grid>
         </Grid>
       </Grid>

@@ -45,7 +45,6 @@ class Hero extends Component {
   render() {
     const { message, currentMessage } = this.state;
     const { width } = this.props;
-    // this.changeMessage();
     return (
       <StaticQuery
         query={graphql`
