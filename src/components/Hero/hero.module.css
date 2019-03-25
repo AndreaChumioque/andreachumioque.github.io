@@ -1,5 +1,9 @@
 .heroContainer {
   background-color: var(--ac-blue);
+  background-image: url('../../images/sparkle.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 25px) calc(100% - 50px);
+  background-size: 50px;
 }
 
 .name {
@@ -14,4 +18,15 @@
 
 .fade {
   opacity: 0;
+}
+
+.homeImage {
+  align-self: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.verticalOffset {
+  position: relative;
+  top: 12vh;
 }

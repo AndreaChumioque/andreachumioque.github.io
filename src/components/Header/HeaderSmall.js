@@ -48,8 +48,6 @@ class HeaderSmall extends Component {
     const body = document.getElementsByTagName('body')[0];
     if (!open) {
       body.classList.add('noscroll');
-    } else {
-      body.classList.remove('noscroll');
     }
     this.setState({ open: !open });
   }

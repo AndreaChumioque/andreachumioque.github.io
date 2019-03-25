@@ -1,0 +1,6 @@
+.aboutContainer {
+  background-image: url('../../images/sparkle-color.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 25px) calc(100% - 50px);
+  background-size: 50px;
+}

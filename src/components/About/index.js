@@ -21,7 +21,12 @@ const About = () => (
       }
     `}
     render={data => (
-      <Grid container component="section" direction="column" className={classNames('container', styles.aboutContainer)}>
+      <Grid
+        container
+        component="section"
+        direction="column"
+        className={classNames('container', styles.aboutContainer)}
+      >
         <h1>
           Hola! Soy Andrea.
         </h1>
