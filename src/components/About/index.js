@@ -25,6 +25,7 @@ const About = () => (
         container
         component="section"
         direction="column"
+        justify="center"
         className={classNames('container', styles.aboutContainer)}
       >
         <h1>
