@@ -56,12 +56,16 @@ class ProyectExp extends Component {
               <a
                 className={styles.link}
                 href={work.demo}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Coffee size={16} className={styles.icon} /> Demo
               </a>
               <a
                 className={styles.link}
                 href={work.github}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Code size={16} className={styles.icon} /> Github
               </a>

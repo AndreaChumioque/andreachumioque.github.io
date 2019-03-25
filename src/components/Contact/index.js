@@ -4,8 +4,6 @@ import classNames from 'classnames';
 import { Grid } from '@material-ui/core';
 import Mail from 'react-feather/dist/icons/mail';
 import Smartphone from 'react-feather/dist/icons/smartphone';
-import Github from 'react-feather/dist/icons/github';
-import Linkedin from 'react-feather/dist/icons/linkedin';
 
 import styles from './contact.module.css';
 
@@ -28,7 +26,13 @@ const Contact = () => (
         className={styles.contactInfo}
       >
         <Mail size={20} className={styles.icon} />
-        <a href="mailto:aichumioque@gmail.com">aichumioque@gmail.com</a>
+        <a
+          href="mailto:aichumioque@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          aichumioque@gmail.com
+        </a>
       </Grid>
       <Grid
         container

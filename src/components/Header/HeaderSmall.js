@@ -6,6 +6,8 @@ import withWidth from '@material-ui/core/withWidth';
 import { Grid } from '@material-ui/core';
 import Menu from 'react-feather/dist/icons/menu';
 import XCircle from 'react-feather/dist/icons/x-circle';
+import Github from 'react-feather/dist/icons/github';
+import Linkedin from 'react-feather/dist/icons/linkedin';
 import posed, { PoseGroup } from 'react-pose';
 
 import Logo from './logo';
@@ -48,6 +50,8 @@ class HeaderSmall extends Component {
     const body = document.getElementsByTagName('body')[0];
     if (!open) {
       body.classList.add('noscroll');
+    } else {
+      body.classList.remove('noscroll');
     }
     this.setState({ open: !open });
   }
@@ -88,6 +92,22 @@ class HeaderSmall extends Component {
                     {label}
                   </Link>
                 ))}
+              </Grid>
+              <Grid container item className={styles.socialContainer}>
+                <a
+                  href="https://www.linkedin.com/in/aichumioque/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin size={30} className={styles.icon} />
+                </a>
+                <a
+                  href="https://github.com/andreachumioque"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github size={30} className={styles.icon} />
+                </a>
               </Grid>
             </Overlay>
           )}

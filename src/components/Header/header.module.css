@@ -87,3 +87,16 @@
   padding: 1rem 0;
   width: fit-content;
 }
+
+.socialContainer {
+  padding-top: 25px;
+}
+
+.socialContainer .icon {
+  margin-right: 15px;
+  transition: .25s;
+}
+
+.socialContainer .icon:hover {
+  color: var(--ac-blue);
+}
