@@ -32,14 +32,6 @@ const portfolio = [
     github: 'https://github.com/AndreaChumioque/moviegeek',
     tools: ['React', 'Material UI'],
   },
-  {
-    title: 'Data dashboard',
-    description: 'Herramienta para el despliegue de datos de las distintas generaciones de Laboratoria por año y sede.',
-    image: 'moviegeek',
-    demo: 'https://andreachumioque.github.io/foodmap',
-    github: 'https://github.com/AndreaChumioque/foodmap',
-    tools: [],
-  }
 ];
 
 const Portfolio = () => (
