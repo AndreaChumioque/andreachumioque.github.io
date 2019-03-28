@@ -1071,12 +1071,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-28T18:29:09.278Z",
+      "buildTime": "2019-03-28T18:41:45.587Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9621a1b61f8a51e050f873d9472aeae7",
+        "contentDigest": "dcfe8269960bdbac0f777e7b1dd0098d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1086,7 +1086,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a165037edea8fb3054115c724c1c4595",
+        "contentDigest": "1353b566c6aa5acf8928486dfd3b3d25",
         "type": "Directory",
         "description": "Directory \"src\\images\"",
         "owner": "gatsby-source-filesystem"
@@ -1097,10 +1097,10 @@
       "extension": "",
       "size": 0,
       "prettySize": "0 B",
-      "modifiedTime": "2019-03-28T18:09:15.288Z",
-      "accessTime": "2019-03-28T18:09:15.288Z",
-      "changeTime": "2019-03-28T18:09:15.288Z",
-      "birthTime": "2019-03-28T18:09:15.252Z",
+      "modifiedTime": "2019-03-28T18:40:40.025Z",
+      "accessTime": "2019-03-28T18:40:40.025Z",
+      "changeTime": "2019-03-28T18:40:40.025Z",
+      "birthTime": "2019-03-28T18:40:39.926Z",
       "root": "C:/",
       "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src",
       "base": "images",
@@ -1113,15 +1113,15 @@
       "uid": 0,
       "gid": 0,
       "rdev": 0,
-      "ino": 844424931051045,
-      "atimeMs": 1553796555287.831,
-      "mtimeMs": 1553796555287.831,
-      "ctimeMs": 1553796555287.831,
-      "birthtimeMs": 1553796555251.9275,
-      "atime": "2019-03-28T18:09:15.288Z",
-      "mtime": "2019-03-28T18:09:15.288Z",
-      "ctime": "2019-03-28T18:09:15.288Z",
-      "birthtime": "2019-03-28T18:09:15.252Z"
+      "ino": 1688849861919832,
+      "atimeMs": 1553798440024.8362,
+      "mtimeMs": 1553798440024.8362,
+      "ctimeMs": 1553798440024.8362,
+      "birthtimeMs": 1553798439925.9304,
+      "atime": "2019-03-28T18:40:40.025Z",
+      "mtime": "2019-03-28T18:40:40.025Z",
+      "ctime": "2019-03-28T18:40:40.025Z",
+      "birthtime": "2019-03-28T18:40:39.926Z"
     },
     "04333096-146d-53d1-b34c-bd22a2dc748a": {
       "id": "04333096-146d-53d1-b34c-bd22a2dc748a",
