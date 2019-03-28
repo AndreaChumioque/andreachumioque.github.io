@@ -1,0 +1,2490 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1bdc0c109191d67c5f0140af685f409b",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ec195f5645e244f3fba47d98394604a3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ce739fa53c5c8341e7971bd6c3d56fb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "452e211d4330ff5f0f9758b24f4b1e27",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "cdcdab9dd650691330cba2bfcdcb3970",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c6a1e91a1e73faece88fd81a6271e5d2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f92baae1c719f323d87f1f62c8d8b016",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5c923efb0c57edc51be69ded6fdf84b9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b98316a2-512a-557d-b8b7-d7391832008c": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-source-filesystem",
+      "id": "b98316a2-512a-557d-b8b7-d7391832008c",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "C:\\Users\\andre\\Documents\\Andrea\\Laboratoria\\andreachumioque.github.io/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.23",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "713fd51cc2f23c6aadf91601727be9ef",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8bf62362-d4fc-5329-b622-a79bd9dcbd2f": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-typography",
+      "id": "8bf62362-d4fc-5329-b622-a79bd9dcbd2f",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.9",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "C:\\Users\\andre\\Documents\\Andrea\\Laboratoria\\andreachumioque.github.io/src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody",
+        "onPreRenderHTML"
+      ],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "988f946d5585e8615c485ce2cf1a5726",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.15",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "027f1ae544ab1c213384118c052109bc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f309e00a77cbfbe4951fcb0afd3cdca4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9146764d-7680-54e5-a302-22b781d4e29d": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "9146764d-7680-54e5-a302-22b781d4e29d",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "C:\\Users\\andre\\Documents\\Andrea\\Laboratoria\\andreachumioque.github.io/src/images/logo-color.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6f8ea56b3133b2d8c10ffaeeb6554a6e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "5356bda3c39f7102c643bdf700697d35",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@material-ui/core",
+            "version": "^3.9.2"
+          },
+          {
+            "name": "classnames",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.29"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.31"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.26"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.9"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.15"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.11"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.4"
+          },
+          {
+            "name": "react-feather",
+            "version": "^1.1.6"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-pose",
+            "version": "^4.0.8"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.19"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.19"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "93f0f4865e1e1f24574ce6b4350e37a5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8e18ef1-c806-5aa7-b0d2-274d183720d0": {
+      "resolve": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3536f6e6609ba29d5331d9d874370e55",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Andrea Chumioque",
+        "description": "Soy Andrea Chumioque, front-end developer egresada de Laboratoria y este es mi portafolio.",
+        "author": "Andrea Chumioque"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-28T18:29:09.278Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9621a1b61f8a51e050f873d9472aeae7",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b7e95220-a92d-51af-beb7-e3d98d379962": {
+      "id": "b7e95220-a92d-51af-beb7-e3d98d379962",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a165037edea8fb3054115c724c1c4595",
+        "type": "Directory",
+        "description": "Directory \"src\\images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-03-28T18:09:15.288Z",
+      "accessTime": "2019-03-28T18:09:15.288Z",
+      "changeTime": "2019-03-28T18:09:15.288Z",
+      "birthTime": "2019-03-28T18:09:15.252Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 304669895,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051045,
+      "atimeMs": 1553796555287.831,
+      "mtimeMs": 1553796555287.831,
+      "ctimeMs": 1553796555287.831,
+      "birthtimeMs": 1553796555251.9275,
+      "atime": "2019-03-28T18:09:15.288Z",
+      "mtime": "2019-03-28T18:09:15.288Z",
+      "ctime": "2019-03-28T18:09:15.288Z",
+      "birthtime": "2019-03-28T18:09:15.252Z"
+    },
+    "04333096-146d-53d1-b34c-bd22a2dc748a": {
+      "id": "04333096-146d-53d1-b34c-bd22a2dc748a",
+      "children": [
+        "b00b3271-16af-5462-ab40-8674f9b65795"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "159cad963e56e369db8a74ce69848868",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src\\images\\bio.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/bio.jpg",
+      "relativePath": "bio.jpg",
+      "extension": "jpg",
+      "size": 44238,
+      "prettySize": "44.2 kB",
+      "modifiedTime": "2019-03-28T18:09:15.253Z",
+      "accessTime": "2019-03-28T18:09:15.253Z",
+      "changeTime": "2019-03-28T18:09:15.253Z",
+      "birthTime": "2019-03-28T18:09:15.253Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "bio.jpg",
+      "ext": ".jpg",
+      "name": "bio",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051046,
+      "atimeMs": 1553796555252.9253,
+      "mtimeMs": 1553796555252.9253,
+      "ctimeMs": 1553796555252.9253,
+      "birthtimeMs": 1553796555252.9253,
+      "atime": "2019-03-28T18:09:15.253Z",
+      "mtime": "2019-03-28T18:09:15.253Z",
+      "ctime": "2019-03-28T18:09:15.253Z",
+      "birthtime": "2019-03-28T18:09:15.253Z"
+    },
+    "b00b3271-16af-5462-ab40-8674f9b65795": {
+      "id": "b00b3271-16af-5462-ab40-8674f9b65795",
+      "children": [],
+      "parent": "04333096-146d-53d1-b34c-bd22a2dc748a",
+      "internal": {
+        "contentDigest": "159cad963e56e369db8a74ce69848868",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "01ebf9cc-e363-549e-9d31-9e42108e5069": {
+      "id": "01ebf9cc-e363-549e-9d31-9e42108e5069",
+      "children": [
+        "6616ddf4-d542-56a1-8d34-6b5e1c185c58"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "02865afb5c83b27083d77b84402db662",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\codebook-large.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/codebook-large.png",
+      "relativePath": "codebook-large.png",
+      "extension": "png",
+      "size": 54618,
+      "prettySize": "54.6 kB",
+      "modifiedTime": "2019-03-28T18:09:15.254Z",
+      "accessTime": "2019-03-28T18:09:15.254Z",
+      "changeTime": "2019-03-28T18:09:15.254Z",
+      "birthTime": "2019-03-28T18:09:15.254Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "codebook-large.png",
+      "ext": ".png",
+      "name": "codebook-large",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051047,
+      "atimeMs": 1553796555253.9219,
+      "mtimeMs": 1553796555253.9219,
+      "ctimeMs": 1553796555253.9219,
+      "birthtimeMs": 1553796555253.9219,
+      "atime": "2019-03-28T18:09:15.254Z",
+      "mtime": "2019-03-28T18:09:15.254Z",
+      "ctime": "2019-03-28T18:09:15.254Z",
+      "birthtime": "2019-03-28T18:09:15.254Z"
+    },
+    "b1b48040-e63f-55b0-b1eb-e38282455890": {
+      "id": "b1b48040-e63f-55b0-b1eb-e38282455890",
+      "children": [
+        "8e8e27c7-c474-5b91-b630-1330e275f71f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "728f27bb5479569e1339057f48295bf8",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\codebook-thumb.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/codebook-thumb.png",
+      "relativePath": "codebook-thumb.png",
+      "extension": "png",
+      "size": 15224,
+      "prettySize": "15.2 kB",
+      "modifiedTime": "2019-03-28T18:09:15.264Z",
+      "accessTime": "2019-03-28T18:09:15.263Z",
+      "changeTime": "2019-03-28T18:09:15.264Z",
+      "birthTime": "2019-03-28T18:09:15.263Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "codebook-thumb.png",
+      "ext": ".png",
+      "name": "codebook-thumb",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051050,
+      "atimeMs": 1553796555262.8975,
+      "mtimeMs": 1553796555263.895,
+      "ctimeMs": 1553796555263.895,
+      "birthtimeMs": 1553796555262.8975,
+      "atime": "2019-03-28T18:09:15.263Z",
+      "mtime": "2019-03-28T18:09:15.264Z",
+      "ctime": "2019-03-28T18:09:15.264Z",
+      "birthtime": "2019-03-28T18:09:15.263Z"
+    },
+    "23f9e184-4d33-5cb6-ae30-4d0b5550470c": {
+      "id": "23f9e184-4d33-5cb6-ae30-4d0b5550470c",
+      "children": [
+        "06f1c3cf-5a96-5c80-bf66-e6f7b1e39307"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ffc18bf90f1a60202d2e70ddfc969423",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\foodmap-thumb.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/foodmap-thumb.png",
+      "relativePath": "foodmap-thumb.png",
+      "extension": "png",
+      "size": 22500,
+      "prettySize": "22.5 kB",
+      "modifiedTime": "2019-03-28T18:09:15.271Z",
+      "accessTime": "2019-03-28T18:09:15.271Z",
+      "changeTime": "2019-03-28T18:09:15.271Z",
+      "birthTime": "2019-03-28T18:09:15.271Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "foodmap-thumb.png",
+      "ext": ".png",
+      "name": "foodmap-thumb",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051054,
+      "atimeMs": 1553796555270.8762,
+      "mtimeMs": 1553796555270.8762,
+      "ctimeMs": 1553796555270.8762,
+      "birthtimeMs": 1553796555270.8762,
+      "atime": "2019-03-28T18:09:15.271Z",
+      "mtime": "2019-03-28T18:09:15.271Z",
+      "ctime": "2019-03-28T18:09:15.271Z",
+      "birthtime": "2019-03-28T18:09:15.271Z"
+    },
+    "4a781a08-e4cc-5fff-990c-77c95470fe1c": {
+      "id": "4a781a08-e4cc-5fff-990c-77c95470fe1c",
+      "children": [
+        "0526948e-39fb-5679-a28b-6ce5560aee0a"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-03-28T18:09:15.273Z",
+      "accessTime": "2019-03-28T18:09:15.273Z",
+      "changeTime": "2019-03-28T18:09:15.273Z",
+      "birthTime": "2019-03-28T18:09:15.273Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051058,
+      "atimeMs": 1553796555272.8713,
+      "mtimeMs": 1553796555272.8713,
+      "ctimeMs": 1553796555272.8713,
+      "birthtimeMs": 1553796555272.8713,
+      "atime": "2019-03-28T18:09:15.273Z",
+      "mtime": "2019-03-28T18:09:15.273Z",
+      "ctime": "2019-03-28T18:09:15.273Z",
+      "birthtime": "2019-03-28T18:09:15.273Z"
+    },
+    "67d6c621-0f2c-5649-a741-56cac05d10a0": {
+      "id": "67d6c621-0f2c-5649-a741-56cac05d10a0",
+      "children": [
+        "1dcf2bab-1510-59a1-a2ae-a00ffcd61312"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "65b88acb2e7de7680186c4ec43843400",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\home-illus.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/home-illus.png",
+      "relativePath": "home-illus.png",
+      "extension": "png",
+      "size": 29784,
+      "prettySize": "29.8 kB",
+      "modifiedTime": "2019-03-28T18:09:15.276Z",
+      "accessTime": "2019-03-28T18:09:15.275Z",
+      "changeTime": "2019-03-28T18:09:15.276Z",
+      "birthTime": "2019-03-28T18:09:15.275Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "home-illus.png",
+      "ext": ".png",
+      "name": "home-illus",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051061,
+      "atimeMs": 1553796555274.866,
+      "mtimeMs": 1553796555275.8633,
+      "ctimeMs": 1553796555275.8633,
+      "birthtimeMs": 1553796555274.866,
+      "atime": "2019-03-28T18:09:15.275Z",
+      "mtime": "2019-03-28T18:09:15.276Z",
+      "ctime": "2019-03-28T18:09:15.276Z",
+      "birthtime": "2019-03-28T18:09:15.275Z"
+    },
+    "5423f046-e268-5e3d-90ac-7b4244ad207c": {
+      "id": "5423f046-e268-5e3d-90ac-7b4244ad207c",
+      "children": [
+        "31c83ecf-e089-5026-9d63-7f2a7f978bcb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "20078dfee18ecc8b081693e240f6ed76",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\icon-white.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/icon-white.png",
+      "relativePath": "icon-white.png",
+      "extension": "png",
+      "size": 15815,
+      "prettySize": "15.8 kB",
+      "modifiedTime": "2019-03-28T18:09:15.277Z",
+      "accessTime": "2019-03-28T18:09:15.277Z",
+      "changeTime": "2019-03-28T18:09:15.277Z",
+      "birthTime": "2019-03-28T18:09:15.277Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "icon-white.png",
+      "ext": ".png",
+      "name": "icon-white",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051065,
+      "atimeMs": 1553796555276.8608,
+      "mtimeMs": 1553796555276.8608,
+      "ctimeMs": 1553796555276.8608,
+      "birthtimeMs": 1553796555276.8608,
+      "atime": "2019-03-28T18:09:15.277Z",
+      "mtime": "2019-03-28T18:09:15.277Z",
+      "ctime": "2019-03-28T18:09:15.277Z",
+      "birthtime": "2019-03-28T18:09:15.277Z"
+    },
+    "f00f5d28-5f0d-5fb7-8851-a7cf3d963d13": {
+      "id": "f00f5d28-5f0d-5fb7-8851-a7cf3d963d13",
+      "children": [
+        "013d2116-d823-5b5f-8224-4e3d2d8bfff8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a087a2fbeb7e22d75ffc02813f1df5e3",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\icon-color.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/icon-color.png",
+      "relativePath": "icon-color.png",
+      "extension": "png",
+      "size": 16556,
+      "prettySize": "16.6 kB",
+      "modifiedTime": "2019-03-28T18:09:15.276Z",
+      "accessTime": "2019-03-28T18:09:15.276Z",
+      "changeTime": "2019-03-28T18:09:15.276Z",
+      "birthTime": "2019-03-28T18:09:15.276Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "icon-color.png",
+      "ext": ".png",
+      "name": "icon-color",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051064,
+      "atimeMs": 1553796555275.8633,
+      "mtimeMs": 1553796555275.8633,
+      "ctimeMs": 1553796555275.8633,
+      "birthtimeMs": 1553796555275.8633,
+      "atime": "2019-03-28T18:09:15.276Z",
+      "mtime": "2019-03-28T18:09:15.276Z",
+      "ctime": "2019-03-28T18:09:15.276Z",
+      "birthtime": "2019-03-28T18:09:15.276Z"
+    },
+    "61e45b82-63bf-5aff-bbb0-03ca23076343": {
+      "id": "61e45b82-63bf-5aff-bbb0-03ca23076343",
+      "children": [
+        "9e2a4e45-78c8-5f06-9ae2-8c7c29b71361"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d2e3864e2f04d1cf2e0386b6b589a390",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\logo-color.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/logo-color.png",
+      "relativePath": "logo-color.png",
+      "extension": "png",
+      "size": 3741,
+      "prettySize": "3.74 kB",
+      "modifiedTime": "2019-03-28T18:09:15.278Z",
+      "accessTime": "2019-03-28T18:09:15.278Z",
+      "changeTime": "2019-03-28T18:09:15.278Z",
+      "birthTime": "2019-03-28T18:09:15.278Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "logo-color.png",
+      "ext": ".png",
+      "name": "logo-color",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051066,
+      "atimeMs": 1553796555277.8584,
+      "mtimeMs": 1553796555277.8584,
+      "ctimeMs": 1553796555277.8584,
+      "birthtimeMs": 1553796555277.8584,
+      "atime": "2019-03-28T18:09:15.278Z",
+      "mtime": "2019-03-28T18:09:15.278Z",
+      "ctime": "2019-03-28T18:09:15.278Z",
+      "birthtime": "2019-03-28T18:09:15.278Z"
+    },
+    "6616ddf4-d542-56a1-8d34-6b5e1c185c58": {
+      "id": "6616ddf4-d542-56a1-8d34-6b5e1c185c58",
+      "children": [],
+      "parent": "01ebf9cc-e363-549e-9d31-9e42108e5069",
+      "internal": {
+        "contentDigest": "02865afb5c83b27083d77b84402db662",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "8e8e27c7-c474-5b91-b630-1330e275f71f": {
+      "id": "8e8e27c7-c474-5b91-b630-1330e275f71f",
+      "children": [],
+      "parent": "b1b48040-e63f-55b0-b1eb-e38282455890",
+      "internal": {
+        "contentDigest": "728f27bb5479569e1339057f48295bf8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06f1c3cf-5a96-5c80-bf66-e6f7b1e39307": {
+      "id": "06f1c3cf-5a96-5c80-bf66-e6f7b1e39307",
+      "children": [],
+      "parent": "23f9e184-4d33-5cb6-ae30-4d0b5550470c",
+      "internal": {
+        "contentDigest": "ffc18bf90f1a60202d2e70ddfc969423",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "0526948e-39fb-5679-a28b-6ce5560aee0a": {
+      "id": "0526948e-39fb-5679-a28b-6ce5560aee0a",
+      "children": [],
+      "parent": "4a781a08-e4cc-5fff-990c-77c95470fe1c",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1dcf2bab-1510-59a1-a2ae-a00ffcd61312": {
+      "id": "1dcf2bab-1510-59a1-a2ae-a00ffcd61312",
+      "children": [],
+      "parent": "67d6c621-0f2c-5649-a741-56cac05d10a0",
+      "internal": {
+        "contentDigest": "65b88acb2e7de7680186c4ec43843400",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "31c83ecf-e089-5026-9d63-7f2a7f978bcb": {
+      "id": "31c83ecf-e089-5026-9d63-7f2a7f978bcb",
+      "children": [],
+      "parent": "5423f046-e268-5e3d-90ac-7b4244ad207c",
+      "internal": {
+        "contentDigest": "20078dfee18ecc8b081693e240f6ed76",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "013d2116-d823-5b5f-8224-4e3d2d8bfff8": {
+      "id": "013d2116-d823-5b5f-8224-4e3d2d8bfff8",
+      "children": [],
+      "parent": "f00f5d28-5f0d-5fb7-8851-a7cf3d963d13",
+      "internal": {
+        "contentDigest": "a087a2fbeb7e22d75ffc02813f1df5e3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "9e2a4e45-78c8-5f06-9ae2-8c7c29b71361": {
+      "id": "9e2a4e45-78c8-5f06-9ae2-8c7c29b71361",
+      "children": [],
+      "parent": "61e45b82-63bf-5aff-bbb0-03ca23076343",
+      "internal": {
+        "contentDigest": "d2e3864e2f04d1cf2e0386b6b589a390",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "1e6b8a58-3ae2-5d72-9e68-d0f024a3d268": {
+      "id": "1e6b8a58-3ae2-5d72-9e68-d0f024a3d268",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7d6f3e6e5c3d15d5e2ba91496399f294",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src\\images\\puntitos.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/puntitos.svg",
+      "relativePath": "puntitos.svg",
+      "extension": "svg",
+      "size": 2303,
+      "prettySize": "2.3 kB",
+      "modifiedTime": "2019-03-28T18:09:15.281Z",
+      "accessTime": "2019-03-28T18:09:15.281Z",
+      "changeTime": "2019-03-28T18:09:15.281Z",
+      "birthTime": "2019-03-28T18:09:15.281Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "puntitos.svg",
+      "ext": ".svg",
+      "name": "puntitos",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051071,
+      "atimeMs": 1553796555280.8499,
+      "mtimeMs": 1553796555280.8499,
+      "ctimeMs": 1553796555280.8499,
+      "birthtimeMs": 1553796555280.8499,
+      "atime": "2019-03-28T18:09:15.281Z",
+      "mtime": "2019-03-28T18:09:15.281Z",
+      "ctime": "2019-03-28T18:09:15.281Z",
+      "birthtime": "2019-03-28T18:09:15.281Z"
+    },
+    "5ce80751-019e-55f2-9131-652d3b7de4e0": {
+      "id": "5ce80751-019e-55f2-9131-652d3b7de4e0",
+      "children": [
+        "43f31ff3-ac34-53e2-b318-f401f89481d5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f8e691180dc7c4eda5f215776216604b",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\sparkle-color.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/sparkle-color.png",
+      "relativePath": "sparkle-color.png",
+      "extension": "png",
+      "size": 1195,
+      "prettySize": "1.2 kB",
+      "modifiedTime": "2019-03-28T18:09:15.288Z",
+      "accessTime": "2019-03-28T18:09:15.287Z",
+      "changeTime": "2019-03-28T18:09:15.288Z",
+      "birthTime": "2019-03-28T18:09:15.287Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "sparkle-color.png",
+      "ext": ".png",
+      "name": "sparkle-color",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051073,
+      "atimeMs": 1553796555286.835,
+      "mtimeMs": 1553796555287.831,
+      "ctimeMs": 1553796555287.831,
+      "birthtimeMs": 1553796555286.835,
+      "atime": "2019-03-28T18:09:15.287Z",
+      "mtime": "2019-03-28T18:09:15.288Z",
+      "ctime": "2019-03-28T18:09:15.288Z",
+      "birthtime": "2019-03-28T18:09:15.287Z"
+    },
+    "da81b076-cd0d-5d24-aa13-e2b800c17233": {
+      "id": "da81b076-cd0d-5d24-aa13-e2b800c17233",
+      "children": [
+        "5d983ad4-ac48-5a46-a625-5223cc72e4e8"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "c01c16f420c80220c580ae69adb0bbd8",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\home-bg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/home-bg.png",
+      "relativePath": "home-bg.png",
+      "extension": "png",
+      "size": 111604,
+      "prettySize": "112 kB",
+      "modifiedTime": "2019-03-28T18:09:15.275Z",
+      "accessTime": "2019-03-28T18:09:15.274Z",
+      "changeTime": "2019-03-28T18:09:15.275Z",
+      "birthTime": "2019-03-28T18:09:15.274Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "home-bg.png",
+      "ext": ".png",
+      "name": "home-bg",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051059,
+      "atimeMs": 1553796555273.869,
+      "mtimeMs": 1553796555274.866,
+      "ctimeMs": 1553796555274.866,
+      "birthtimeMs": 1553796555273.869,
+      "atime": "2019-03-28T18:09:15.274Z",
+      "mtime": "2019-03-28T18:09:15.275Z",
+      "ctime": "2019-03-28T18:09:15.275Z",
+      "birthtime": "2019-03-28T18:09:15.274Z"
+    },
+    "caf9c3a6-0951-5cca-8a3f-8dfb9fdd62bc": {
+      "id": "caf9c3a6-0951-5cca-8a3f-8dfb9fdd62bc",
+      "children": [
+        "11342b99-773f-575d-9710-4132ef1f6b0e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "71dcd6b0b3c635c51cdc3653c34f663f",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\moviegeek-large.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/moviegeek-large.png",
+      "relativePath": "moviegeek-large.png",
+      "extension": "png",
+      "size": 103793,
+      "prettySize": "104 kB",
+      "modifiedTime": "2019-03-28T18:09:15.279Z",
+      "accessTime": "2019-03-28T18:09:15.278Z",
+      "changeTime": "2019-03-28T18:09:15.279Z",
+      "birthTime": "2019-03-28T18:09:15.278Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "moviegeek-large.png",
+      "ext": ".png",
+      "name": "moviegeek-large",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051069,
+      "atimeMs": 1553796555277.8584,
+      "mtimeMs": 1553796555278.8567,
+      "ctimeMs": 1553796555278.8567,
+      "birthtimeMs": 1553796555277.8584,
+      "atime": "2019-03-28T18:09:15.278Z",
+      "mtime": "2019-03-28T18:09:15.279Z",
+      "ctime": "2019-03-28T18:09:15.279Z",
+      "birthtime": "2019-03-28T18:09:15.278Z"
+    },
+    "43f31ff3-ac34-53e2-b318-f401f89481d5": {
+      "id": "43f31ff3-ac34-53e2-b318-f401f89481d5",
+      "children": [],
+      "parent": "5ce80751-019e-55f2-9131-652d3b7de4e0",
+      "internal": {
+        "contentDigest": "f8e691180dc7c4eda5f215776216604b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5d983ad4-ac48-5a46-a625-5223cc72e4e8": {
+      "id": "5d983ad4-ac48-5a46-a625-5223cc72e4e8",
+      "children": [],
+      "parent": "da81b076-cd0d-5d24-aa13-e2b800c17233",
+      "internal": {
+        "contentDigest": "c01c16f420c80220c580ae69adb0bbd8",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "11342b99-773f-575d-9710-4132ef1f6b0e": {
+      "id": "11342b99-773f-575d-9710-4132ef1f6b0e",
+      "children": [],
+      "parent": "caf9c3a6-0951-5cca-8a3f-8dfb9fdd62bc",
+      "internal": {
+        "contentDigest": "71dcd6b0b3c635c51cdc3653c34f663f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "70e365b7-8d7c-5656-8687-14bee7c3d785": {
+      "id": "70e365b7-8d7c-5656-8687-14bee7c3d785",
+      "children": [
+        "5f83d5fb-24f4-50a5-930d-347c6337dc17"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "73e4230776c833e435ef43fb5054c2e6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\sparkle.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/sparkle.png",
+      "relativePath": "sparkle.png",
+      "extension": "png",
+      "size": 1021,
+      "prettySize": "1.02 kB",
+      "modifiedTime": "2019-03-28T18:09:15.289Z",
+      "accessTime": "2019-03-28T18:09:15.288Z",
+      "changeTime": "2019-03-28T18:09:15.289Z",
+      "birthTime": "2019-03-28T18:09:15.288Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "sparkle.png",
+      "ext": ".png",
+      "name": "sparkle",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051075,
+      "atimeMs": 1553796555287.831,
+      "mtimeMs": 1553796555288.8286,
+      "ctimeMs": 1553796555288.8286,
+      "birthtimeMs": 1553796555287.831,
+      "atime": "2019-03-28T18:09:15.288Z",
+      "mtime": "2019-03-28T18:09:15.289Z",
+      "ctime": "2019-03-28T18:09:15.289Z",
+      "birthtime": "2019-03-28T18:09:15.288Z"
+    },
+    "7ff3922b-1f82-596e-9203-be5990ee2d9f": {
+      "id": "7ff3922b-1f82-596e-9203-be5990ee2d9f",
+      "children": [
+        "babf4f16-d313-56ee-91a2-c828407aa18e"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\gatsby-astronaut.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/gatsby-astronaut.png",
+      "relativePath": "gatsby-astronaut.png",
+      "extension": "png",
+      "size": 167273,
+      "prettySize": "167 kB",
+      "modifiedTime": "2019-03-28T18:09:15.273Z",
+      "accessTime": "2019-03-28T18:09:15.272Z",
+      "changeTime": "2019-03-28T18:09:15.273Z",
+      "birthTime": "2019-03-28T18:09:15.272Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "gatsby-astronaut.png",
+      "ext": ".png",
+      "name": "gatsby-astronaut",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051057,
+      "atimeMs": 1553796555271.8738,
+      "mtimeMs": 1553796555272.8713,
+      "ctimeMs": 1553796555272.8713,
+      "birthtimeMs": 1553796555271.8738,
+      "atime": "2019-03-28T18:09:15.272Z",
+      "mtime": "2019-03-28T18:09:15.273Z",
+      "ctime": "2019-03-28T18:09:15.273Z",
+      "birthtime": "2019-03-28T18:09:15.272Z"
+    },
+    "5f83d5fb-24f4-50a5-930d-347c6337dc17": {
+      "id": "5f83d5fb-24f4-50a5-930d-347c6337dc17",
+      "children": [],
+      "parent": "70e365b7-8d7c-5656-8687-14bee7c3d785",
+      "internal": {
+        "contentDigest": "73e4230776c833e435ef43fb5054c2e6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "babf4f16-d313-56ee-91a2-c828407aa18e": {
+      "id": "babf4f16-d313-56ee-91a2-c828407aa18e",
+      "children": [],
+      "parent": "7ff3922b-1f82-596e-9203-be5990ee2d9f",
+      "internal": {
+        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "449a761d-0478-5e8c-ac84-15377da1e561": {
+      "id": "449a761d-0478-5e8c-ac84-15377da1e561",
+      "children": [
+        "798607fa-d6f7-5cc0-8fcd-a7107339c78b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "fc556380f4d39a8534acced2d78a6306",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\foodmap-large.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/foodmap-large.png",
+      "relativePath": "foodmap-large.png",
+      "extension": "png",
+      "size": 204469,
+      "prettySize": "204 kB",
+      "modifiedTime": "2019-03-28T18:09:15.265Z",
+      "accessTime": "2019-03-28T18:09:15.264Z",
+      "changeTime": "2019-03-28T18:09:15.265Z",
+      "birthTime": "2019-03-28T18:09:15.264Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "foodmap-large.png",
+      "ext": ".png",
+      "name": "foodmap-large",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051052,
+      "atimeMs": 1553796555263.895,
+      "mtimeMs": 1553796555264.8926,
+      "ctimeMs": 1553796555264.8926,
+      "birthtimeMs": 1553796555263.895,
+      "atime": "2019-03-28T18:09:15.264Z",
+      "mtime": "2019-03-28T18:09:15.265Z",
+      "ctime": "2019-03-28T18:09:15.265Z",
+      "birthtime": "2019-03-28T18:09:15.264Z"
+    },
+    "798607fa-d6f7-5cc0-8fcd-a7107339c78b": {
+      "id": "798607fa-d6f7-5cc0-8fcd-a7107339c78b",
+      "children": [],
+      "parent": "449a761d-0478-5e8c-ac84-15377da1e561",
+      "internal": {
+        "contentDigest": "fc556380f4d39a8534acced2d78a6306",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "f97fdd70-76fc-5851-9e9d-53501e712e4c": {
+      "id": "f97fdd70-76fc-5851-9e9d-53501e712e4c",
+      "children": [
+        "ac3c76d3-0e90-55be-a3e3-9e474bd5d610"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0b07e760fd5b611cab6b2d44789307b2",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\moviegeek-thumb.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/moviegeek-thumb.png",
+      "relativePath": "moviegeek-thumb.png",
+      "extension": "png",
+      "size": 496757,
+      "prettySize": "497 kB",
+      "modifiedTime": "2019-03-28T18:09:15.281Z",
+      "accessTime": "2019-03-28T18:09:15.280Z",
+      "changeTime": "2019-03-28T18:09:15.281Z",
+      "birthTime": "2019-03-28T18:09:15.280Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "moviegeek-thumb.png",
+      "ext": ".png",
+      "name": "moviegeek-thumb",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051070,
+      "atimeMs": 1553796555279.8523,
+      "mtimeMs": 1553796555280.8499,
+      "ctimeMs": 1553796555280.8499,
+      "birthtimeMs": 1553796555279.8523,
+      "atime": "2019-03-28T18:09:15.280Z",
+      "mtime": "2019-03-28T18:09:15.281Z",
+      "ctime": "2019-03-28T18:09:15.281Z",
+      "birthtime": "2019-03-28T18:09:15.280Z"
+    },
+    "ac3c76d3-0e90-55be-a3e3-9e474bd5d610": {
+      "id": "ac3c76d3-0e90-55be-a3e3-9e474bd5d610",
+      "children": [],
+      "parent": "f97fdd70-76fc-5851-9e9d-53501e712e4c",
+      "internal": {
+        "contentDigest": "0b07e760fd5b611cab6b2d44789307b2",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "5e4706ec-620a-54a7-a2c3-f14d9c696d70": {
+      "id": "5e4706ec-620a-54a7-a2c3-f14d9c696d70",
+      "children": [
+        "de8dc256-7ff7-55c5-b0d7-2defc103fa27"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a4605f6c9123f695fe03bf4be9df0899",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\foodmap-mockup.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/foodmap-mockup.png",
+      "relativePath": "foodmap-mockup.png",
+      "extension": "png",
+      "size": 750065,
+      "prettySize": "750 kB",
+      "modifiedTime": "2019-03-28T18:09:15.270Z",
+      "accessTime": "2019-03-28T18:09:15.266Z",
+      "changeTime": "2019-03-28T18:09:15.270Z",
+      "birthTime": "2019-03-28T18:09:15.266Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "foodmap-mockup.png",
+      "ext": ".png",
+      "name": "foodmap-mockup",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051053,
+      "atimeMs": 1553796555265.89,
+      "mtimeMs": 1553796555269.879,
+      "ctimeMs": 1553796555269.879,
+      "birthtimeMs": 1553796555265.89,
+      "atime": "2019-03-28T18:09:15.266Z",
+      "mtime": "2019-03-28T18:09:15.270Z",
+      "ctime": "2019-03-28T18:09:15.270Z",
+      "birthtime": "2019-03-28T18:09:15.266Z"
+    },
+    "de8dc256-7ff7-55c5-b0d7-2defc103fa27": {
+      "id": "de8dc256-7ff7-55c5-b0d7-2defc103fa27",
+      "children": [],
+      "parent": "5e4706ec-620a-54a7-a2c3-f14d9c696d70",
+      "internal": {
+        "contentDigest": "a4605f6c9123f695fe03bf4be9df0899",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "06d89710-ecf6-5c1e-b55c-fd9a796724c9": {
+      "id": "06d89710-ecf6-5c1e-b55c-fd9a796724c9",
+      "children": [
+        "f3fe3926-7eab-565b-89f5-131980ff03a2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1a6f21911011ebd7041726fc6d2eb67c",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\codebook-mockup.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/codebook-mockup.png",
+      "relativePath": "codebook-mockup.png",
+      "extension": "png",
+      "size": 1337488,
+      "prettySize": "1.34 MB",
+      "modifiedTime": "2019-03-28T18:09:15.263Z",
+      "accessTime": "2019-03-28T18:09:15.255Z",
+      "changeTime": "2019-03-28T18:09:15.263Z",
+      "birthTime": "2019-03-28T18:09:15.255Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "codebook-mockup.png",
+      "ext": ".png",
+      "name": "codebook-mockup",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051048,
+      "atimeMs": 1553796555254.9187,
+      "mtimeMs": 1553796555262.8975,
+      "ctimeMs": 1553796555262.8975,
+      "birthtimeMs": 1553796555254.9187,
+      "atime": "2019-03-28T18:09:15.255Z",
+      "mtime": "2019-03-28T18:09:15.263Z",
+      "ctime": "2019-03-28T18:09:15.263Z",
+      "birthtime": "2019-03-28T18:09:15.255Z"
+    },
+    "f3fe3926-7eab-565b-89f5-131980ff03a2": {
+      "id": "f3fe3926-7eab-565b-89f5-131980ff03a2",
+      "children": [],
+      "parent": "06d89710-ecf6-5c1e-b55c-fd9a796724c9",
+      "internal": {
+        "contentDigest": "1a6f21911011ebd7041726fc6d2eb67c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "c20d12b5-b45e-59f3-add1-fe2e10210cbb": {
+      "id": "c20d12b5-b45e-59f3-add1-fe2e10210cbb",
+      "children": [
+        "3e2a3e8b-b664-5f02-849e-cf8479a51cab"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6123a44268b834da3c54e545ab10ac61",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src\\images\\redbus-mockup.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images/redbus-mockup.png",
+      "relativePath": "redbus-mockup.png",
+      "extension": "png",
+      "size": 2309910,
+      "prettySize": "2.31 MB",
+      "modifiedTime": "2019-03-28T18:09:15.287Z",
+      "accessTime": "2019-03-28T18:09:15.282Z",
+      "changeTime": "2019-03-28T18:09:15.287Z",
+      "birthTime": "2019-03-28T18:09:15.282Z",
+      "root": "C:/",
+      "dir": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/images",
+      "base": "redbus-mockup.png",
+      "ext": ".png",
+      "name": "redbus-mockup",
+      "relativeDirectory": "",
+      "dev": 304669895,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931051072,
+      "atimeMs": 1553796555281.8474,
+      "mtimeMs": 1553796555286.835,
+      "ctimeMs": 1553796555286.835,
+      "birthtimeMs": 1553796555281.8474,
+      "atime": "2019-03-28T18:09:15.282Z",
+      "mtime": "2019-03-28T18:09:15.287Z",
+      "ctime": "2019-03-28T18:09:15.287Z",
+      "birthtime": "2019-03-28T18:09:15.282Z"
+    },
+    "3e2a3e8b-b664-5f02-849e-cf8479a51cab": {
+      "id": "3e2a3e8b-b664-5f02-849e-cf8479a51cab",
+      "children": [],
+      "parent": "c20d12b5-b45e-59f3-add1-fe2e10210cbb",
+      "internal": {
+        "contentDigest": "6123a44268b834da3c54e545ab10ac61",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "pluginCreatorId": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1229d3c6ea0cece208e09778b5c3a11f",
+        "description": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "pluginCreatorId": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "513c8532f7e72cd6d8c9ecbf33d663d2",
+        "description": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "pluginCreatorId": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7e38150ae947a716c8283e771bb071f4",
+        "description": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "pluginCreatorId": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2284e8a38b46efe72742b4b137534612",
+        "description": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "jsonName": "portfolio-964",
+      "internalComponentName": "ComponentPortfolio",
+      "path": "/portfolio/",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "context": {},
+      "pluginCreator___NODE": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "pluginCreatorId": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3cb75435f112a0f70e728d564dceb375",
+        "description": "b8e18ef1-c806-5aa7-b0d2-274d183720d0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "53cc29f88c040e6665e77c56f7cc78bd",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "07533e07ef632b2bc2ee81ab09a2bd0f"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "04333096-146d-53d1-b34c-bd22a2dc748a": [
+        "sq--src-components-about-index-js"
+      ],
+      "61e45b82-63bf-5aff-bbb0-03ca23076343": [
+        "sq--src-components-header-logo-js"
+      ],
+      "7ff3922b-1f82-596e-9203-be5990ee2d9f": [
+        "sq--src-components-image-js"
+      ],
+      "67d6c621-0f2c-5649-a741-56cac05d10a0": [
+        "sq--src-components-hero-index-js"
+      ],
+      "b00b3271-16af-5462-ab40-8674f9b65795": [
+        "sq--src-components-about-index-js"
+      ],
+      "9e2a4e45-78c8-5f06-9ae2-8c7c29b71361": [
+        "sq--src-components-header-logo-js"
+      ],
+      "babf4f16-d313-56ee-91a2-c828407aa18e": [
+        "sq--src-components-image-js"
+      ],
+      "1dcf2bab-1510-59a1-a2ae-a00ffcd61312": [
+        "sq--src-components-hero-index-js"
+      ],
+      "06d89710-ecf6-5c1e-b55c-fd9a796724c9": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "5e4706ec-620a-54a7-a2c3-f14d9c696d70": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "c20d12b5-b45e-59f3-add1-fe2e10210cbb": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "f3fe3926-7eab-565b-89f5-131980ff03a2": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "de8dc256-7ff7-55c5-b0d7-2defc103fa27": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "3e2a3e8b-b664-5f02-849e-cf8479a51cab": [
+        "sq--src-components-portfolio-index-js"
+      ],
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-about-index-js": 1265547121,
+    "sq--src-components-header-logo-js": 921550834,
+    "sq--src-components-image-js": 2011440971,
+    "sq--src-components-hero-index-js": 2705174071,
+    "sq--src-components-layout-js": 1044757290,
+    "sq--src-components-seo-js": 2417117884,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "portfolio-964": "107/path---portfolio-964-7f6-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-portfolio-index-js": 21702807
+  },
+  "components": {
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/.cache/dev-404-page.js"
+    },
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/404.js"
+    },
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/about.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/about.js"
+    },
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/contact.js"
+    },
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/index.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/index.js"
+    },
+    "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/portfolio.js": {
+      "query": "",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/pages/portfolio.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-about-index-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsAboutIndexJs1265547121",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/About/index.js",
+      "id": "sq--src-components-about-index-js",
+      "jsonName": "sq--src-components-about-index-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsAboutIndexJs1265547121 {\n  bio: file(relativePath: {eq: \"bio.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 1265547121
+    },
+    "sq--src-components-header-logo-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsHeaderLogoJs921550834",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/Header/logo.js",
+      "id": "sq--src-components-header-logo-js",
+      "jsonName": "sq--src-components-header-logo-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsHeaderLogoJs921550834 {\n  placeholderImage: file(relativePath: {eq: \"logo-color.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 921550834
+    },
+    "sq--src-components-image-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsImageJs2011440971",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2011440971
+    },
+    "sq--src-components-hero-index-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsHeroIndexJs2705174071",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/Hero/index.js",
+      "id": "sq--src-components-hero-index-js",
+      "jsonName": "sq--src-components-hero-index-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsHeroIndexJs2705174071 {\n  illustration: file(relativePath: {eq: \"home-illus.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2705174071
+    },
+    "sq--src-components-portfolio-index-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsPortfolioIndexJs21702807",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/Portfolio/index.js",
+      "id": "sq--src-components-portfolio-index-js",
+      "jsonName": "sq--src-components-portfolio-index-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsPortfolioIndexJs21702807 {\n  codebook: file(relativePath: {eq: \"codebook-mockup.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  foodmap: file(relativePath: {eq: \"foodmap-mockup.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 1000) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  redbus: file(relativePath: {eq: \"redbus-mockup.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 21702807
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 1044757290
+    },
+    "sq--src-components-seo-js": {
+      "name": "cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsSeoJs2417117884",
+      "componentPath": "C:/Users/andre/Documents/Andrea/Laboratoria/andreachumioque.github.io/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query cUsersAndreDocumentsAndreaLaboratoriaAndreachumioqueGithubIoSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}
