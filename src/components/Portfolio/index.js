@@ -25,12 +25,12 @@ const portfolio = [
     tools: ['jQuery', 'Bootstrap4', 'Firebase'],
   },
   {
-    title: 'MovieGeek',
-    description: 'Aplicativo web enfocado al público geek, que brinda información sobre películas del género de ciencia ficción.',
-    image: 'moviegeek',
-    demo: 'https://github.com/AndreaChumioque/moviegeek',
-    github: 'https://github.com/AndreaChumioque/moviegeek',
-    tools: ['React', 'Material UI'],
+    title: 'Redbus',
+    description: 'Interfaz responsive de confirmación de la pasarela Pago Efectivo, que brindará mayor conversión a las ventas realizadas en Pago Efectivo y Banca Online.',
+    image: 'redbus',
+    demo: 'https://andreachumioque.github.io/redbus',
+    github: 'https://github.com/AndreaChumioque/redbus',
+    tools: ['React', 'react-bootstrap'],
   },
 ];
 
@@ -52,7 +52,7 @@ const Portfolio = () => (
             }
           }
         }
-        moviegeek: file(relativePath: { eq: "moviegeek-thumb.png" }) {
+        redbus: file(relativePath: { eq: "redbus-mockup.png" }) {
           childImageSharp {
             fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
